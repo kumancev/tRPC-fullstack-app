@@ -5,9 +5,7 @@
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
-    // директория сборки
     "outDir": "./dist",
-    // директория исходников
     "rootDir": "./src",
     "skipLibCheck": true,
     "strict": true,
