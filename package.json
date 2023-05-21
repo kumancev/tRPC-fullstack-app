@@ -1,0 +1,15 @@
+{
+  "name": "trpc-fullstack-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kumancev/tRPC-fullstack-app.git",
+  "author": "Alex Kumancev <kumancev1@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"yarn --cwd ./server start\" \"yarn --cwd ./client dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
